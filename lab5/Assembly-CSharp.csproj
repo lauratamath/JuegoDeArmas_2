@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A60E2CE8-1058-2B2C-5C84-64F3ECE11675}</ProjectGuid>
+    <ProjectGuid>{966151DE-6A65-D3DD-AC73-D28A96E0D3B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,37 +71,38 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Script\Cam.cs" />
     <Compile Include="Assets\Script\ChangeC.cs" />
     <Compile Include="Assets\Script\MouseS.cs" />
     <Compile Include="Assets\Script\Movimiento.cs" />
     <Compile Include="Assets\Script\Slightt.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 4/juegoArmas/lab4/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/laury/Documents/del Valle/Juegos/Lab no. 5/JuegoDeArmas_2/lab5/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -637,7 +638,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D512ADC1-95C9-E03E-D955-87301C6CC1B5}</Project>
+      <Project>{B68098D3-1752-7A74-57AF-C029694A6FB8}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

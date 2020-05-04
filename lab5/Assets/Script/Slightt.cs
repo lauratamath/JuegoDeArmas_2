@@ -8,10 +8,11 @@ public class Slightt : MonoBehaviour
 {
     public Text scoreText;
     private int score = 0;
+    private AudioSource shotSFX;
     // Start is called before the first frame update
     void Start()
     {
-        
+        shotSFX = GetComponent<AudioSource>();   
     }
 
     // Update is called once per frame
@@ -29,6 +30,7 @@ public class Slightt : MonoBehaviour
             {
                 if (hitInfo.collider.CompareTag("Destroy"))
                 {
+                    if (shotSFX) shotSFX.Play();
                     Destroy(hitInfo.collider.gameObject);
                     score++;
                 }
